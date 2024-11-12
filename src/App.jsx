@@ -9,7 +9,7 @@ const App = () => {
     <>
       <div className="card">
         <p>Your personal user token:</p>
-        <input type="text" value={token} />
+        <textarea name="sbwb-tkn" value={token} rows="6" cols="50" className="transparent"></textarea>
       </div>
       <p className="read-the-docs">Portal: {urlPortal}</p>
     </>
